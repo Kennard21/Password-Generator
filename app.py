@@ -9,9 +9,9 @@ symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 st.title("Welcome to the PyPassword Generator!")
 
 # 2. Pengganti input() menjadi kotak angka di web
-nr_letters = st.number_input("How many letters would you like in your password?", min_value=0, max_value=50, value=8)
-nr_symbols = st.number_input("How many symbols would you like?", min_value=0, max_value=30, value=2)
-nr_numbers = st.number_input("How many numbers would you like?", min_value=0, max_value=30, value=2)
+nr_letters = st.number_input("How many letters would you like in your password?", min_value=0, max_value=50, value=10)
+nr_symbols = st.number_input("How many symbols would you like?", min_value=0, max_value=30, value=3)
+nr_numbers = st.number_input("How many numbers would you like?", min_value=0, max_value=30, value=3)
 
 # 3. Tombol aksi
 if st.button("Generate Password", type="primary"):
