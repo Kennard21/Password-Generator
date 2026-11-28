@@ -1,6 +1,6 @@
 # 🔐 PyPassword Generator
 
-A simple, secure, and customizable web-based password generator built with Python and Streamlit.
+A simple, secure web-based password generator built for **personal use** with Python and Streamlit.
 
 ## 🌐 Live Web App
 Access and use the app directly from your browser (PC or mobile):
@@ -15,16 +15,5 @@ Access and use the app directly from your browser (PC or mobile):
 - **Language:** Python
 - **Framework:** Streamlit
 
-## 💻 Run Locally
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/Kennard21/Password-Generator.git](https://github.com/Kennard21/Password-Generator.git)
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Start the app:
-   ```bash
-   streamlit run app.py
-   ```
+## Credits
+Originally started as a practice exercise from Dr. Angela Yu's **[100 Days of Code: The Complete Python Pro Bootcamp]** on Udemy, then adapted into a web app using Python's `secrets` module for everyday personal use across my devices.
